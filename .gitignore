@@ -1,0 +1,11 @@
+/*.cache
+/.env
+/.idea
+/.phpcs-cache
+/.psalm-cache
+/.phpunit.cache
+/.phpunit.result.cache
+/clover.xml
+/coveralls-upload.json
+/phpunit.xml
+/vendor/
