@@ -12,7 +12,7 @@
 }
 {
     "label" : "logout",
-    "action" : "loginctl sleep 1; hyperctl dispatch exit",
+    "action" : "loginctl sleep 1; hyprctl dispatch exit",
     "text" : "Logout",
     "keybind" : "e"
 }
