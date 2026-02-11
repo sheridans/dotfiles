@@ -389,7 +389,6 @@ declare -a ARCH_PACMAN_PKGS=(
 declare -a ARCH_AUR_PKGS=(
   hyprshot
   wlogout
-  stylua
   cliphist
 )
 
