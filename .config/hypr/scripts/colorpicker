@@ -19,8 +19,6 @@ check_dependencies() {
 
 main() {
     convert -size 120x120 xc:"$CMD" "$TMP"
-    printf %s "$CMD" | wl-paste 
-
     notify-send -a "Color Picker" -i "$TMP" xcolor-pick "$CMD"
 }
 

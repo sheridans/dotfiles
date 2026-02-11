@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Neovim
+GenericName=Text Editor
+Comment=Edit text files in Neovim
+# Swap kitty for ghostty if you switch terminals
+Exec=kitty -e nvim %F
+# Exec=ghostty -e nvim %F
+Terminal=false
+Type=Application
+Keywords=Text;Editor;
+Icon=nvim
+Categories=Utility;TextEditor;
+MimeType=text/plain;text/x-csrc;text/x-chdr;text/x-python;text/x-shellscript;text/x-lua;application/json;application/xml;application/x-yaml;

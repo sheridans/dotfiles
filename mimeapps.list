@@ -1,0 +1,74 @@
+[Default Applications]
+# Browser
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/about=firefox.desktop
+x-scheme-handler/unknown=firefox.desktop
+text/html=firefox.desktop
+application/xhtml+xml=firefox.desktop
+
+# File Manager
+inode/directory=org.kde.dolphin.desktop
+
+# Video - VLC
+video/mp4=vlc.desktop
+video/x-matroska=vlc.desktop
+video/webm=vlc.desktop
+video/x-msvideo=vlc.desktop
+video/quicktime=vlc.desktop
+video/x-flv=vlc.desktop
+video/mpeg=vlc.desktop
+video/ogg=vlc.desktop
+
+# Audio - VLC
+audio/mpeg=vlc.desktop
+audio/mp4=vlc.desktop
+audio/ogg=vlc.desktop
+audio/flac=vlc.desktop
+audio/x-wav=vlc.desktop
+audio/aac=vlc.desktop
+
+# Images - GIMP for editing
+image/png=gimp.desktop
+image/jpeg=gimp.desktop
+image/gif=gimp.desktop
+image/webp=gimp.desktop
+image/tiff=gimp.desktop
+image/bmp=gimp.desktop
+image/svg+xml=gimp.desktop
+
+# PDF - Firefox (or install zathura/okular)
+application/pdf=firefox.desktop
+
+# Text/Code - opens in terminal with nvim
+text/plain=nvim.desktop
+text/x-csrc=nvim.desktop
+text/x-chdr=nvim.desktop
+text/x-python=nvim.desktop
+text/x-shellscript=nvim.desktop
+text/x-lua=nvim.desktop
+application/json=nvim.desktop
+application/xml=nvim.desktop
+application/x-yaml=nvim.desktop
+
+# Java Web Start - IcedTea-Web
+application/x-java-jnlp-file=itweb-javaws.desktop
+
+# Archives - Dolphin/Ark
+application/zip=org.kde.ark.desktop
+application/x-tar=org.kde.ark.desktop
+application/gzip=org.kde.ark.desktop
+application/x-7z-compressed=org.kde.ark.desktop
+application/x-rar=org.kde.ark.desktop
+
+# Documents
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop
+application/msword=libreoffice-writer.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop
+application/vnd.oasis.opendocument.spreadsheet=libreoffice-calc.desktop
+application/vnd.ms-excel=libreoffice-calc.desktop
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop
+
+[Added Associations]
+video/mp4=com.blackmagicdesign.resolve.desktop;vlc.desktop;
+video/x-matroska=com.blackmagicdesign.resolve.desktop;vlc.desktop;
